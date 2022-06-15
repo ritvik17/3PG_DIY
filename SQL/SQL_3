@@ -1,0 +1,5 @@
+--RITVIK GUPTA 3PG
+SELECT * FROM movies WHERE Title LIKE "%Toy%";
+SELECT * FROM movies WHERE Director="John Lasseter";
+SELECT Title,Director FROM movies WHERE Director NOT LIKE "John Lasseter";
+SELECT Title,Director FROM movies WHERE Title LIKE "%WALL-%";
